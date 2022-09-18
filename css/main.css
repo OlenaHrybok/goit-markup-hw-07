@@ -10,7 +10,7 @@ h4 {
   display: block;
 }
 
-.port-item, .navigation__row, .footer-ul-addres, .clients__list, .team-main, .team-item, .excellence__row, .ben-row, .header-right, .site-nav {
+.port-item, .navigation__row, .follow, .footer-ul-addres, .clients__list, .team-main, .team-item, .excellence__row, .ben-row, .header-right, .site-nav {
   margin: 0;
   padding-left: 0;
   list-style: none;
