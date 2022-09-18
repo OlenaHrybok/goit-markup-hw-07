@@ -7,13 +7,13 @@
 /* колів фону під секцій з викладачами #FFFFFF */
 
 
-:root {
+/* :root {
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --background-color: #F5F5F5;
     --accent-color: #2196F3;
-}
-
+} */
+/* 
 p,
 h1, 
 h2, 
@@ -51,9 +51,8 @@ section {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 2px solid tomato; */
-}
-.row {
+} */
+/* .row {
     display: flex;
     align-items: center;
 }
@@ -75,10 +74,10 @@ section {
 /* .header-contact {
     margin-left: 50px;
 } */
-.header-contact:not(:last-child) {
+/* .header-contact:not(:last-child) {
     margin-right: 50px;
-}
-.studio {
+} */ */
+/* .studio {
     text-decoration: none;
     margin-right: 93px;
 }
@@ -95,17 +94,17 @@ section {
     font-family: Raleway ; 
     font-size: 26px ;
     line-height: calc(31/26);
-}
+} */
 
-.logo-third{
+/* .logo-third{
     color:#FFFFFF;
     font-family: Raleway ; 
     font-size: 26px ;
     line-height: calc(31/26);
-}
+} */
 /* --------------------SITE     NAV    -------------------- */
 
-.site-face:not(:last-child) {
+/* .site-face:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -157,6 +156,7 @@ section {
     fill: var(--primary-text-color);
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .contacts-adress {
     width: 100%;
@@ -188,11 +188,11 @@ section {
 }
 .contacts-adress:hover, .contacts-adress:focus {
     color: var(--accent-color) ;
-}
+} */
 /* -------------------------HERO------------------ */
 
 
-.hero-main {
+/* .hero-main {
     background-color: #2F303A ;
     max-width: 1600px;
     padding-top: 200px;
@@ -234,10 +234,10 @@ section {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
     border-radius: 4px;
-}
+} */
 
 /* -----------------------------BUT NAVIGATION------------------------*/
-.navigation__content {
+/* .navigation__content {
     display: flex;
     align-items: center;
 }
@@ -274,10 +274,10 @@ section {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
         0px 1px 2px rgba(0, 0, 0, 0.08), 
         0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* ---------------------------ADVANTAGE--------------------------- */
-.excellence__row {
+/* .excellence__row {
     display: flex;
 }
 .advantage__card:not(:last-child) {
@@ -321,9 +321,10 @@ section {
 }
 .advantage__image {
     display: block;
-}
+} */
 /* -----------------------------TEAM------------------------------ */
-.team-section {
+
+/* .team-section {
     background-color: #F5F4FA;
 }
 .team-row:not(:last-child) {
@@ -403,9 +404,9 @@ section {
 }
 .link {
     text-decoration: none;
-}
+} */
 /* ------------------------BENEFIT----------------------- */
-.icon-in-ben {
+/* .icon-in-ben {
     display: flex;
     height: 120px;
     align-items: center;
@@ -424,17 +425,17 @@ section {
     display: flex;
     list-style: none;
     /* text-align: left; */
-}
+/* }
 .ben-text {
-    width: 270px;
-}
+    width: 270px; */
+/* }
 .ben-text-two {
-    width: 270px;
-}
+    width: 270px; */
+/* }
 .ben-text-row:not(:last-child) {
     margin-right: 30px;
-}
-.benefit-text {
+} */ */
+/* .benefit-text {
     color:var(--primary-text-color);
     line-height: 1.71;
     text-decoration: none;
@@ -447,12 +448,12 @@ section {
     line-height:1.14;
     text-decoration: none;
     margin-bottom: 10px;
-}
+} */
 /* ------------------------CLIENTS--------------------- */
 
 
 
-.clients__title {
+/* .clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -495,14 +496,14 @@ section {
 .clients__link:focus, .clients__link:hover {
     border-color: var(--accent-color);
 }
-
+ */
 
 
 
 
 
 /* ------------------------PORTFOLIO---------------------- */
-.port-img {
+/* .port-img {
     display: block;
 }
 .port-img-action {
@@ -583,9 +584,9 @@ section {
     line-height:1.88;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
+} */
 /* ------------------------FOOTER----------------------- */
-.follow {
+/* .follow {
     display: flex;
     justify-content: center;
     margin: 0px;
@@ -628,8 +629,8 @@ section {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
-}
-.footer .container {
+} */
+/* .footer .container {
     display: flex;
 }
 .footer {
@@ -645,13 +646,13 @@ section {
 .footer-adress-main {
     display: flex;
     flex-direction: column;
-}
-.follow-main {
+} */
+/* .follow-main {
     display: block;
     margin-top: 12px;
     margin-left: 70px;
-}
-.window {
+} */
+/* .window {
     display: block;
     align-items: center;
     text-align: center;
@@ -665,7 +666,7 @@ section {
     text-transform: uppercase;
     margin-top: 16px;
     color: transparent;
-}
+} */
 /* .window-input {
     width: 358px;
     height: 50px;
@@ -686,7 +687,7 @@ section {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 } */
-.window-input {
+/* .window-input {
     width: 358px;
     height: 50px;
     color: rgba(255, 255, 255, 0.6);
@@ -707,8 +708,8 @@ section {
 }
 .window-icon {
     margin-left: 10px;
-}
-.studio-footer {
+} */
+/* .studio-footer {
     text-decoration: none;
 }
 
@@ -741,11 +742,11 @@ section {
  }
 .li-fot {
     margin-bottom: 9px;
-}
+} */
 
 
 
-
+/* 
 .backdrop {
     position: fixed;
     top: 0;
@@ -934,4 +935,4 @@ section {
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
+} */
