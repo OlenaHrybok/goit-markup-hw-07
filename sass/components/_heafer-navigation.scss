@@ -1,4 +1,5 @@
 .site-nav {
+    @extend %ul;
     display: flex;
     margin-left: var(--typical-padding);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -77,4 +78,7 @@
         .contacts-adress:hover &{
             fill: $accent-color;
         }
+}
+.header-right {
+    @extend %ul;
 }

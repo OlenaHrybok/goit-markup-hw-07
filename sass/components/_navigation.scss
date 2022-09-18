@@ -8,6 +8,7 @@
 }
 
 .navigation__row {
+    @extend %ul;
     display: flex;
     margin-right: auto;
     margin-left: auto;

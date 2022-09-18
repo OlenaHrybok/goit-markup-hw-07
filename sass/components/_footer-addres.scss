@@ -1,7 +1,9 @@
 .footer .container {
     display: flex;
 }
-
+.footer-ul-addres {
+    @extend %ul;
+}
 .footer {
     background-color: #2F303A;
     text-decoration: none;

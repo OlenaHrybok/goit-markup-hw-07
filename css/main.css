@@ -10,9 +10,10 @@ h4 {
   display: block;
 }
 
-ul {
+.port-item, .navigation__row, .footer-ul-addres, .clients__list, .team-main, .team-item, .excellence__row, .ben-row, .header-right, .site-nav {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 body {
@@ -21,10 +22,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
-}
-
-ul {
-  list-style: none;
 }
 
 section {

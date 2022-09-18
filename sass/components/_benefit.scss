@@ -16,6 +16,7 @@
     }
 }
 .ben-row {
+    @extend %ul;
     display: flex;
     list-style: none;
 }

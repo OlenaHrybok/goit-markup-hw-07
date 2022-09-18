@@ -10,9 +10,10 @@ h4 {
     display: block;
 }
 
-ul {
+%ul {
     margin: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 body {
@@ -23,9 +24,9 @@ body {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
+// ul {
+//     list-style: none;
+// }
 
 section {
     padding-top: 94px;

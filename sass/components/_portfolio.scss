@@ -59,6 +59,7 @@
     }
 }
 .port-item {
+    @extend %ul;
     margin-bottom: 30px;
     &:nth-child(3n) {
         margin-right: 30px;

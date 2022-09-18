@@ -30,6 +30,7 @@
 
 }
 .clients__list {
+    @extend %ul;
     display: flex;
     justify-content: center;
 }

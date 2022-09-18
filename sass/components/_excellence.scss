@@ -1,4 +1,5 @@
 .excellence__row {
+    @extend %ul;
     display: flex;
 }
 .advantage__card:not(:last-child) {
