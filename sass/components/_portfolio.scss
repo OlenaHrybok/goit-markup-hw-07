@@ -1,14 +1,14 @@
-.port-img {
+.portfolio__image {
     display: block;
 }
 
-.port-img-action {
+.portfolio__content {
     display: flex;
     position: relative;
     overflow: hidden;
 }
 
-.port-text-action {
+.portfolio__animation {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -18,7 +18,7 @@
     padding: 63px 24px;
 
 }
-.port-action {
+.portfolio__action {
     display: inline-block;
     position: absolute;
     content: '';
@@ -27,29 +27,30 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .port:hover &,
-    .port:focus & {
+    .portfolio__link:hover &,
+    .portfolio__link:focus & {
             transform: translateY(0);
         }
 }
+
 .portfolio {
     padding-left: 0;
     padding-right: 0;
 }
-.port-back {
+.portfolio__text {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     padding: 20px 24px;
     
 }
-.port-row {
+.portfolio__list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
 }
-.port {
+.portfolio__link {
     text-decoration: $text-decoration;
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -60,7 +61,7 @@
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
-.port-item {
+.portfolio__item {
     @extend %ul;
     margin-bottom: 30px;
     &:nth-child(3n) {
@@ -68,12 +69,12 @@
         margin-left: 30px;
     }
 }
-.port-link {
+.portfolio__name {
     color:$title-text-color ;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     text-decoration: $text-decoration;
     &-text {
         color: $primary-text-color;

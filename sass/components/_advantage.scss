@@ -1,8 +1,8 @@
-.excellence__row {
+.advantage__list {
     @extend %ul;
     display: flex;
 }
-.advantage__card:not(:last-child) {
+.advantage__item:not(:last-child) {
     margin-right: 30px;
 }
 .advantage__content {
@@ -20,7 +20,7 @@
     padding-top: 27px;
     padding-bottom: 27px;
 }
-.advantage__action {
+.advantage__wrap {
     height: 70px;
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
@@ -30,7 +30,7 @@
     right: 0;
     bottom: 0;
 }
-.excellence__title {
+.advantage__title {
     color: $title-text-color;
     font-weight: 700;
     line-height: 1.14;
